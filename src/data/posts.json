@@ -1,0 +1,61 @@
+[
+  { "id": 1, "userId": "a1b2c3d4-e5f6-4789-a012-3456789abcde", "title": "Effective Team Communication", "body": "Regular stand-ups, transparency and open discussion improve workflow." },
+  { "id": 2, "userId": "a1b2c3d4-e5f6-4789-a012-3456789abcde", "title": "Workplace Culture Matters", "body": "Employees perform better when they feel valued and trusted." },
+  { "id": 3, "userId": "a1b2c3d4-e5f6-4789-a012-3456789abcde", "title": "Client Relationship Building", "body": "Consistency, honesty and quick response strengthen trust." },
+  { "id": 4, "userId": "a1b2c3d4-e5f6-4789-a012-3456789abcde", "title": "Employee Retention Strategy", "body": "Recognition, growth opportunities and fair pay reduce attrition." },
+  { "id": 5, "userId": "a1b2c3d4-e5f6-4789-a012-3456789abcde", "title": "Corporate Communication Etiquette", "body": "Clear subject, concise body and professional tone in emails." },
+
+  { "id": 6, "userId": "b2c3d4e5-f6a7-4890-b123-456789abcdef", "title": "Smart Hiring Practices", "body": "Hire people with skills, attitude, and adaptability for growth." },
+  { "id": 7, "userId": "b2c3d4e5-f6a7-4890-b123-456789abcdef", "title": "Performance Review Techniques", "body": "Use measurable goals, feedback, and plan improvements." },
+  { "id": 8, "userId": "b2c3d4e5-f6a7-4890-b123-456789abcdef", "title": "Organizational Structure Types", "body": "Flat, matrix and hierarchical structures suit different teams." },
+  { "id": 9, "userId": "b2c3d4e5-f6a7-4890-b123-456789abcdef", "title": "Managing Remote Workforce", "body": "Clear goals, video check-ins, and async communication help." },
+  { "id": 10, "userId": "b2c3d4e5-f6a7-4890-b123-456789abcdef", "title": "Employee Wellness Programs", "body": "Health benefits, fitness, and mental support boost productivity." },
+
+  { "id": 11, "userId": "c3d4e5f6-a7b8-4901-c234-56789abcdef0", "title": "Cash Flow Management", "body": "Monitor inflow-outflow and maintain emergency reserves." },
+  { "id": 12, "userId": "c3d4e5f6-a7b8-4901-c234-56789abcdef0", "title": "Budget Planning for Companies", "body": "Forecast yearly expenses and allocate funds smartly." },
+  { "id": 13, "userId": "c3d4e5f6-a7b8-4901-c234-56789abcdef0", "title": "Cost Cutting Without Layoffs", "body": "Optimize tools, reduce wastage, improve process efficiency." },
+  { "id": 14, "userId": "c3d4e5f6-a7b8-4901-c234-56789abcdef0", "title": "Investor Presentation Tips", "body": "Show traction, revenue model, vision and growth plan." },
+  { "id": 15, "userId": "c3d4e5f6-a7b8-4901-c234-56789abcdef0", "title": "Profit vs Revenue Difference", "body": "High revenue doesn't equal profit — expenses matter." },
+
+  { "id": 16, "userId": "d4e5f6a7-b8c9-4012-d345-6789abcdef01", "title": "Brand Positioning Strategy", "body": "Define how your company should be perceived in market." },
+  { "id": 17, "userId": "d4e5f6a7-b8c9-4012-d345-6789abcdef01", "title": "Market Research Importance", "body": "Understanding customers improves decision making." },
+  { "id": 18, "userId": "d4e5f6a7-b8c9-4012-d345-6789abcdef01", "title": "Customer Feedback Value", "body": "Feedback drives product improvements & loyalty." },
+  { "id": 19, "userId": "d4e5f6a7-b8c9-4012-d345-6789abcdef01", "title": "Business Risk Management", "body": "Identify, evaluate and prepare for potential threats." },
+  { "id": 20, "userId": "d4e5f6a7-b8c9-4012-d345-6789abcdef01", "title": "Partnership & Collaboration", "body": "Joint ventures expand market presence faster." },
+
+  { "id": 21, "userId": "e5f6a7b8-c9d0-4123-e456-789abcdef012", "title": "Leadership Mindset", "body": "Lead by example, not force — motivate, not command." },
+  { "id": 22, "userId": "e5f6a7b8-c9d0-4123-e456-789abcdef012", "title": "Decision Making Under Pressure", "body": "Slow down, analyze data, evaluate risks before final call." },
+  { "id": 23, "userId": "e5f6a7b8-c9d0-4123-e456-789abcdef012", "title": "Conflict Resolution at Work", "body": "Listen, understand both sides, find a fair solution." },
+  { "id": 24, "userId": "e5f6a7b8-c9d0-4123-e456-789abcdef012", "title": "Delegation Skills", "body": "Assign tasks based on strengths, trust your team." },
+  { "id": 25, "userId": "e5f6a7b8-c9d0-4123-e456-789abcdef012", "title": "Build a Strong Management Team", "body": "Choose leaders who inspire and influence positively." },
+
+  { "id": 26, "userId": "f6a7b8c9-d0e1-4234-f567-89abcdef0123", "title": "Business Expansion Strategy", "body": "Analyze new markets, demand, cost and competition." },
+  { "id": 27, "userId": "f6a7b8c9-d0e1-4234-f567-89abcdef0123", "title": "Why Branding Matters", "body": "Brand identity builds long term market presence." },
+  { "id": 28, "userId": "f6a7b8c9-d0e1-4234-f567-89abcdef0123", "title": "Creating a Scalable Business", "body": "Systems & automation allow growth without chaos." },
+  { "id": 29, "userId": "f6a7b8c9-d0e1-4234-f567-89abcdef0123", "title": "B2B vs B2C Differences", "body": "Sales cycle, pricing and marketing vary widely." },
+  { "id": 30, "userId": "f6a7b8c9-d0e1-4234-f567-89abcdef0123", "title": "Client Onboarding Checklist", "body": "Contracts, access, kickoff meeting and milestones." },
+
+  { "id": 31, "userId": "a7b8c9d0-e1f2-4345-a678-9abcdef01234", "title": "Corporate Branding Essentials", "body": "Logo, tone, colors, messaging aligned together." },
+  { "id": 32, "userId": "a7b8c9d0-e1f2-4345-a678-9abcdef01234", "title": "Market Segmentation Types", "body": "Demographics, behavior and lifestyle targeting." },
+  { "id": 33, "userId": "a7b8c9d0-e1f2-4345-a678-9abcdef01234", "title": "Building Strong B2B Relations", "body": "Communication, consistency and timely delivery." },
+  { "id": 34, "userId": "a7b8c9d0-e1f2-4345-a678-9abcdef01234", "title": "Effective Sales Funnel", "body": "Awareness → Interest → Decision → Purchase." },
+  { "id": 35, "userId": "a7b8c9d0-e1f2-4345-a678-9abcdef01234", "title": "Pricing Strategy Models", "body": "Cost-based, value-based and competitive pricing." },
+
+  { "id": 36, "userId": "b8c9d0e1-f2a3-4456-b789-abcdef012345", "title": "HR Policy Development", "body": "Clear guidelines maintain fairness and discipline." },
+  { "id": 37, "userId": "b8c9d0e1-f2a3-4456-b789-abcdef012345", "title": "Employee Skill Development", "body": "Training leads to better performance & innovation." },
+  { "id": 38, "userId": "b8c9d0e1-f2a3-4456-b789-abcdef012345", "title": "Corporate Ethics & Integrity", "body": "Honesty builds long-term brand trust." },
+  { "id": 39, "userId": "b8c9d0e1-f2a3-4456-b789-abcdef012345", "title": "Payroll Structure Basics", "body": "CTC includes salary + allowances + benefits." },
+  { "id": 40, "userId": "b8c9d0e1-f2a3-4456-b789-abcdef012345", "title": "Workplace Diversity Benefits", "body": "Different minds create better ideas and solutions." },
+
+  { "id": 41, "userId": "c9d0e1f2-a3b4-4567-c89a-bcdef0123456", "title": "Startup Business Model Types", "body": "Subscription, marketplace, SaaS, aggregator etc." },
+  { "id": 42, "userId": "c9d0e1f2-a3b4-4567-c89a-bcdef0123456", "title": "Pitch Deck Structure", "body": "Problem, solution, traction, revenue model, roadmap." },
+  { "id": 43, "userId": "c9d0e1f2-a3b4-4567-c89a-bcdef0123456", "title": "Funding Rounds Explained", "body": "Seed, Series A, B, C depending on growth stage." },
+  { "id": 44, "userId": "c9d0e1f2-a3b4-4567-c89a-bcdef0123456", "title": "Go-to-Market Strategy", "body": "Launching approach for new products or markets." },
+  { "id": 45, "userId": "c9d0e1f2-a3b4-4567-c89a-bcdef0123456", "title": "Bootstrapping vs Investment", "body": "Bootstrap = autonomy, Investment = rapid scale." },
+
+  { "id": 46, "userId": "d0e1f2a3-b4c5-4678-d9ab-cdef01234567", "title": "Supply Chain Optimization", "body": "Improve fulfillment, reduce delays, control logistics." },
+  { "id": 47, "userId": "d0e1f2a3-b4c5-4678-d9ab-cdef01234567", "title": "Business Negotiation Tactics", "body": "Win-win deals are better than aggressive closures." },
+  { "id": 48, "userId": "d0e1f2a3-b4c5-4678-d9ab-cdef01234567", "title": "Corporate Sustainability Goals", "body": "Eco policies reduce waste and improve brand value." },
+  { "id": 49, "userId": "d0e1f2a3-b4c5-4678-d9ab-cdef01234567", "title": "Vendor Management System", "body": "Track performance, contracts and pricing." },
+  { "id": 50, "userId": "d0e1f2a3-b4c5-4678-d9ab-cdef01234567", "title": "Quarterly Business Review", "body": "Measure growth, fix gaps and set new targets." }
+]
