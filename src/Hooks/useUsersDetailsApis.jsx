@@ -1,50 +1,58 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import users from "../data/users.json";
 import posts from "../data/posts.json";
+import { notification } from "antd";
 
 const useUsersDetailsApis = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
 
-  const getUsersDetails = async () => {
+  const getUsersDetails = useCallback(async () => {
     setLoading(true);
     setTimeout(() => {
       setData(users);
       setLoading(false);
     }, 1000);
-  };
+  }, []);
 
-  const getUsersDetailsByUserId = async (userId) => {
+  const getUsersDetailsByUserId = useCallback(async (userId) => {
     setLoading(true);
+
     setTimeout(() => {
       const user = users.find((user) => user.userId === userId);
       if (user) {
         setData(user);
       } else {
-        setError("User not found");
+        notification.error({
+          message: "User not found",
+        });
+        setData(null);
       }
       setLoading(false);
     }, 1000);
-  };
+  }, []);
 
-  const getPostsByUserId = async (userId) => {
+  const getPostsByUserId = useCallback(async (userId) => {
     setLoading(true);
+
     setTimeout(() => {
       const filteredPosts = posts.filter((post) => post.userId === userId);
       if (filteredPosts.length > 0) {
         setData(filteredPosts);
       } else {
-        setError("Posts not found");
+        notification.error({
+          message: "Posts not found",
+        });
+        setData([]);
       }
       setLoading(false);
     }, 1000);
-  };
+  }, []);
 
   return {
     data,
     loading,
-    error,
+    setData,
     getUsersDetails,
     getUsersDetailsByUserId,
     getPostsByUserId,

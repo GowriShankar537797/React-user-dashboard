@@ -14,7 +14,7 @@ function App() {
 
   const breadcrumbItems = useMemo(() => {
     if (pathname === "/") {
-      return [{ title: "Users" }];
+      return [{ title: "Users List" }];
     }
 
     const pathParts = pathname.split("/").filter(Boolean);
@@ -27,7 +27,7 @@ function App() {
             style={{ cursor: "pointer", color: "#1890ff" }}
             onClick={() => navigate("/")}
           >
-            Users
+            Users List
           </span>
         ),
       },
@@ -40,8 +40,6 @@ function App() {
       <HeaderComponent />
 
       <Content style={{ padding: "0 48px" }}>
-        <Breadcrumb style={{ margin: "20px 0" }} items={breadcrumbItems} />
-
         <Routes>
           <Route path='/' element={<UserListPage />} />
           <Route path='/user/:id' element={<UserDetailsPage />} />

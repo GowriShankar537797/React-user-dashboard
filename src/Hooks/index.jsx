@@ -1,3 +1,3 @@
-import useUsersDetailsApis from "./usersApis";
-
-export { useUsersDetailsApis };
+import useUsersDetailsApis from "./useUsersDetailsApis";
+import { UseUsersDetailsContext, useUsersDetails } from "./context";
+export { useUsersDetailsApis, UseUsersDetailsContext, useUsersDetails };

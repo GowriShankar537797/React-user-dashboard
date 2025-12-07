@@ -1,3 +1,5 @@
-import HeaderComponent from './header'
+import HeaderComponent from "./header";
+import PostsList from "./postsList";
+import Loader from "./loader";
 
-export { HeaderComponent }
+export { HeaderComponent, PostsList, Loader };
