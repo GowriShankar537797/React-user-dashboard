@@ -17,14 +17,25 @@ const UserDetailsPage = () => {
               {
                 title: (
                   <span
-                    style={{ cursor: "pointer", color: "#1890ff" }}
+                    style={{ cursor: "pointer" }}
                     onClick={() => navigate("/")}
                   >
                     Users List
                   </span>
                 ),
               },
-              { title: userId || "User Details" },
+              {
+                title: userId ? (
+                  <span
+                    style={{ cursor: "pointer", color: "#1890ff" }}
+                    onClick={() => navigate("/")}
+                  >
+                    {userId}
+                  </span>
+                ) : (
+                  <span style={{ color: "#1890ff" }}>User Details</span>
+                ),
+              },
             ]}
           />
         </Col>

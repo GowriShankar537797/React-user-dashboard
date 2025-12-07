@@ -1,13 +1,13 @@
 import { Spin } from "antd";
 
-const Loader = () => {
+const Loader = ({ height = 200 }) => {
   return (
     <div
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: 200,
+        height: `${height}px`,
       }}
     >
       <Spin />

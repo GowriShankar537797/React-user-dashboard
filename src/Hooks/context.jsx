@@ -62,25 +62,6 @@ export const UsersDetailsProvider = ({ children }) => {
     ];
   }, [userDetails]);
 
-  const postsItems = useMemo(() => {
-    if (!postsData || postsData.length === 0) {
-      return [];
-    }
-
-    return postsData.map((post) => [
-      {
-        label: "Title",
-        children: post.title,
-        span: 3,
-      },
-      {
-        label: "Description",
-        children: post.body,
-        span: 3,
-      },
-    ]);
-  }, [postsData]);
-
   return (
     <Context.Provider
       value={{
@@ -89,7 +70,6 @@ export const UsersDetailsProvider = ({ children }) => {
         postsData,
         postsLoading,
         items,
-        postsItems,
         userId,
         setPostsData,
       }}

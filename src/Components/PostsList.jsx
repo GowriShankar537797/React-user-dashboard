@@ -11,7 +11,7 @@ import {
   message,
 } from "antd";
 import { useUsersDetails } from "../Hooks";
-import Loader from "./loader";
+import Loader from "./Loader";
 import { DeleteOutlined, EditOutlined } from "@ant-design/icons";
 import { Fragment, useState } from "react";
 
@@ -46,9 +46,7 @@ const PostsList = () => {
       okText: "Delete",
       okType: "danger",
       onOk: () => {
-        setPostsData(
-          postsData.filter((p) => p.id !== post.id && p.userId === post.userId)
-        );
+        setPostsData(postsData.filter((p) => p.id !== post.id));
         setOpen(false);
         form.resetFields();
         setEditingPost(null);
@@ -76,7 +74,8 @@ const PostsList = () => {
         setEditingPost(null);
         message.success("Post updated successfully");
       } else {
-        setPostsData([...postsData, { ...values, id: postsData.length + 1 }]);
+        const newId = Math.max(...postsData.map((p) => p.id), 0) + 1;
+        setPostsData([...postsData, { ...values, id: newId, userId }]);
         setOpen(false);
         form.resetFields();
         message.success("Post created successfully");
@@ -175,11 +174,13 @@ const PostsList = () => {
           </Form.Item>
           <Form.Item
             name='body'
-            label='Body'
-            rules={[{ required: true, message: "Please enter post body" }]}
+            label='Description'
+            rules={[
+              { required: true, message: "Please enter post description" },
+            ]}
           >
             <TextArea
-              placeholder='Enter post body'
+              placeholder='Enter post description'
               rows={4}
               showCount
               maxLength={200}
