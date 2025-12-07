@@ -11,7 +11,7 @@ const HeaderComponent = () => {
       }}
     >
       <Typography.Title style={{ color: "#fff", marginTop: "10px" }} level={2}>
-        React Dashboard
+        Dashboard
       </Typography.Title>
     </Header>
   );
