@@ -15,11 +15,11 @@ import Loader from "./Loader";
 import { DeleteOutlined, EditOutlined } from "@ant-design/icons";
 import { Fragment, useState } from "react";
 
-const { Title, Paragraph } = Typography;
+const { Paragraph, Text } = Typography;
 const { TextArea } = Input;
 
 const PostsList = () => {
-  const { postsData, postsLoading, setPostsData } = useUsersDetails();
+  const { postsData, postsLoading, setPostsData, userId } = useUsersDetails();
   const [open, setOpen] = useState(false);
   const [editingPost, setEditingPost] = useState(null);
   const [form] = Form.useForm();
@@ -63,6 +63,7 @@ const PostsList = () => {
   const handleSubmit = async () => {
     try {
       const values = await form.validateFields();
+
       if (editingPost) {
         setPostsData(
           postsData.map((p) =>
@@ -130,7 +131,7 @@ const PostsList = () => {
                 }
               >
                 <List.Item.Meta
-                  title={<Title level={5}>{post.title}</Title>}
+                  title={<Text strong>{post.title}</Text>}
                   description={<Paragraph>{post.body}</Paragraph>}
                 />
               </List.Item>
